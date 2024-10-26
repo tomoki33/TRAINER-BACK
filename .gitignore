@@ -1,1 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
 venv/
+.env
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Logs
+*.log
+
+# Media and Static files
+media/
+staticfiles/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.sublime-workspace
+
+# Others
+*.DS_Store
+.pytest_cache/
+.coverage
+.mypy_cache/
